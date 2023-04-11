@@ -1,0 +1,23 @@
+@media (max-width: 1000px) {
+    .container,.nav-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+    .container,.nav-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,.nav-container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1320px) {
+    .container,.nav-container {
+        max-width: 1420px;
+    } 
+
+}
