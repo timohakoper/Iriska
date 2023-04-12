@@ -4,19 +4,12 @@
 }
 *,
 
-::after,::before {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #fff;
-    overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
-    overflow: auto;
+    font-family: 'Montserrat', sans-serif !important ;
 }
 
 a {
-    text-decoration: none;
+    text-decoration : none !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -24,15 +17,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-family: 'Roboto Slab', serif;
     color: #000;
-}
-
-.container,.nav-container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: calc(1.5rem* .5);
-    padding-right: calc(1.5rem* .5);
-    text-align: justify;
 }
 .nav-link,.btn,.nav_adress {
     color: #000;
@@ -45,44 +29,30 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header-nav  */
 
-.nav-site {
-    background-color: #e79eb7;
+.container.navbar-container {
+    background-color: #fdf1c1;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
-    display: flex;  
-    position: fixed;
-}
-
-.nav-container {
-    display: flex;
-    flex-wrap: inherit;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo-salon {
-    max-width: 250px;
+    max-width: 200px;
     vertical-align: middle;
     padding: 0 25px;
 }
 
-.navbar>ul {
-    display: flex;
-    list-style: none;
-}
 
-.navbar>ul>li {
+.nav-item {
     margin-right: 15px;
 }
 
-.navbar>ul>li:hover {
+.nav-item:hover {
     transition: .7s;
     background-color: rgb(197, 84, 163);
 }
 
-.navbar>ul>li>a {
+.nav_link {
     text-align: center;
     text-transform: uppercase;
     padding-right: 0.5rem;
@@ -90,6 +60,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #000;
     font-size: 16px;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .nav_adress {
@@ -101,11 +72,11 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Nav-btn */
 
-.btn {
+.btn_border {
     display: inline-block;
-    background-color: #ca6a82;
+    background-color: #473f1c;
     border-radius: 30px;
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin-left: 10px;
     font-size: 16px;
     color: #fff;
@@ -113,7 +84,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn:hover {
     transition: .7s;
-    background-color: #c42c52;
+    background-color: #fad43d;
 }
 
 /* Main (about) */
@@ -121,6 +92,7 @@ h1,h2,h3,h4,h5,h6 {
 .page {
     display: flex;
     flex-direction: column;
+    background-color: #fff8dc ;
 }
 section {
     padding-top: 70px;
