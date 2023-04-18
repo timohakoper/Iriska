@@ -1,9 +1,3 @@
-@media (max-width: 1000px) {
-    .container,.nav-container {
-        flex-direction: column;
-    }
-}
-
 @media (min-width: 992px) {
     .container,.nav-container {
         max-width: 960px;
@@ -19,5 +13,14 @@
     .container,.nav-container {
         max-width: 1420px;
     } 
-
+}
+@media (max-width: 1200px) {
+.nav_adress {
+    display: none;
+}
+}
+@media (max-width: 991px) {
+#pc {
+    display: none;
+}
 }
