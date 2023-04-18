@@ -9,7 +9,6 @@
     <title>Салон красоты - "IRISKA"</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
-    <link rel="stylesheet" href="slider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,9 +30,11 @@
                 <div class="container navbar-container">
                     <a href="#main">
                         <img class="logo-salon" src="images/logo.png" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav_link" href="#about">О салоне</a></li>
@@ -48,7 +49,7 @@
                         class="nav_adress">
                         <p><ion-icon class="location" name="location-outline"></ion-icon>Ул. Кирова, 19</p>
                     </a>
-                    <div class="nav-btn">
+                    <div class="nav-btn" id="pc">
                         <a href="tel:+78142633466" class="btn_border">Позвонить</a>
                         <a href="#" class="btn_border">Записаться</a>
                     </div>
@@ -58,7 +59,7 @@
         <!-- Main page -->
         <section class="about">
             <div class="container">
-                <div class="row">
+                <div class="row row_aic">
                     <div class="col-lg-6 about_text">
                         <h1>Салон красоты Петрозаводска рядом с ТЦ Макси </h1>
                         <p>Салон-парикмахерская «Ириска» рад открыть свои двери перед ценителями прекрасного! Мы
@@ -69,24 +70,8 @@
                             на месте, и повышают свою квалификацию, чтобы радовать своих клиентов.</p>
                         <p>Салон работает на профессиональной косметике марки «Estel» и «Kaaral»</p>
                     </div>
-                    <div class="col-lg-6 slider middle">
-                        <div class="slides">
-                            <input type="radio" name="r" id="r1" checked>
-                            <input type="radio" name="r" id="r2">
-                            <input type="radio" name="r" id="r3">
-                            <input type="radio" name="r" id="r4">
+                    <div class="col-lg-6 about_img">
 
-                            <div class="slide s1"><img src="images/sl1.jpg" alt=""></div>
-                            <div class="slide"><img src="images/sl5.jpg" alt=""></div>
-                            <div class="slide"><img src="images/sl6.jpg" alt=""></div>
-                            <div class="slide"><img src="images/sl4.jpg" alt=""></div>
-                        </div>
-                        <div class="navigation">
-                            <label for="r1" class="bar"></label>
-                            <label for="r2" class="bar"></label>
-                            <label for="r3" class="bar"></label>
-                            <label for="r4" class="bar"></label>
-                        </div>
                     </div>
                 </div>
             </div>
