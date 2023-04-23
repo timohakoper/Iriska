@@ -38,7 +38,7 @@
                     <div class="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav_link" href="#about">О салоне</a></li>
-                            <li class="nav-item"><a class="nav_link" href="#uslugi">Услуги</a></li>
+                            <li class="nav-item"><a class="nav_link" href="#services">Услуги</a></li>
                             <li class="nav-item"><a class="nav_link" href="#gallery">Галерея</a></li>
                             <li class="nav-item"><a class="nav_link" href="#otz">Отзывы</a></li>
                             <li class="nav-item"><a class="nav_link" href="#contacts">Контакты</a></li>
@@ -47,7 +47,8 @@
                     <a target="_blank"
                         href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"
                         class="nav_adress">
-                        <p><ion-icon class="location" name="location-outline"></ion-icon>Ул. Кирова, 19</p>
+                        <ion-icon class="location" name="location-outline"></ion-icon>
+                        <p>Ул. Кирова, 19</p>
                     </a>
                     <div class="nav-btn" id="pc">
                         <a href="tel:+78142633466" class="btn_border">Позвонить</a>
@@ -57,7 +58,7 @@
             </nav>
         </header>
         <!-- Main page -->
-        <section class="about">
+        <section id="about">
             <div class="container">
                 <div class="row row_aic">
                     <div class="col-lg-6 about_text">
@@ -76,23 +77,43 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section id="services">
             <div class="container">
                 <h2>Наши услуги</h2>
                 <ul class="services-list">
                     <li>
-                        <span>Парикмахерские услуги</span>
+                        <ol>Парикмахерские услуги</ol>
                         <ul>
-                            <li>Мужская стрижка</li>
-                            <li>Женская стрижка</li>
-                            <li>Детская стрижка</li>
-                            <li>Подравнивание</li>
-                            <li>Однотонное окрашивание</li>
-                            <li>Окрашивание корней</li>
-                            <li>Мелирование</li>
-                            <li>Сложные техники ( Лир, шатуш, балаяж )</li>
-                            <li>Укладка волос (Локоны)</li>
-                            <li>Спа-уход</li>
+                            <li>Мужская стрижка -
+                                <p>400-500₽</p>
+                            </li>
+                            <li>Женская стрижка -
+                                <p>400-700₽</p>
+                            </li>
+                            <li>Детская стрижка -
+                                <p>400₽</p>
+                            </li>
+                            <li>Подравнивание -
+                                <p>300₽</p>
+                            </li>
+                            <li>Однотонное окрашивание -
+                                <p>1500₽</p>
+                            </li>
+                            <li>Окрашивание корней -
+                                <p>1000₽ </p>
+                            </li>
+                            <li>Мелирование -
+                                <p>от 2000₽</p>
+                            </li>
+                            <li>Сложные техники ( Лир, шатуш, балаяж ) -
+                                <p>от 3000₽</p>
+                            </li>
+                            <li>Укладка волос (Локоны) -
+                                <p>от 500₽</p>
+                            </li>
+                            <li>Спа-уход -
+                                <p>от 300₽</p>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -107,18 +128,45 @@
                     <li>
                         <span>Визаж</span>
                         <ul>
-                            <li>Перманентный макияж</li>
-                            <li>Макияж</li>
-                            <li></li>
-                            <li></li>
+                            <li>Перманентный макияж
+                                <ol>Брови
+                                    <p>3500₽</p>
+                                </ol>
+                                <ol>Губы
+                                    <p>4500₽</p>
+                                </ol>
+                                <ol>Межресничка
+                                    <p>3000₽</p>
+                                </ol>
+                            </li>
+                            <li>Макияж
+                                <ol>Дневной
+                                    <p>1000₽</p>
+                                </ol>
+                                <ol>Вечерний
+                                    <p>1000₽</p>
+                                </ol>
+                                <ol>Лифтинг макияж
+                                    <p>1000₽</p>
+                                </ol>
+                                <ol>Макияж на фотосессию
+                                    <p>1000₽</p>
+                                </ol>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <span>Массаж</span>
                         <ul>
-                            <li>Скульптурный массаж лица</li>
-                            <li>Косметический массаж лица</li>
-                            <li>Лимфодренажный массаж тела</li>
+                            <li>Скульптурный массаж лица -
+                                <p>700₽ (курс 10-12 процедур)</p>
+                            </li>
+                            <li>Косметический массаж лица -
+                                <p>600₽ (курс 10-12 процедур) </p>
+                            </li>
+                            <li>Лимфодренажный массаж тела -
+                                <p>1200₽ (курс 7-12 процедур)</p>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -131,42 +179,44 @@
         </section>
         <section class="">
         </section>
-    </div>
-    <!-- <footer class="footer">
-            <div class="footer-menu">
-                <img class="logo-footer" src="images/logo.png" alt="">
-                <ul>
-                    <h5>Контакты</h5>
-                    <li class="contacts-footer">
-                        <a href="#"><ion-icon class="call-outline" name="call-outline"></ion-icon>+78142633466</a>
-                    </li>
-                    <li class="contacts-footer">
-                        <a href="#"><ion-icon class="call-outline" name="call-outline"></ion-icon>+79114003466</a>
-                    </li>
-                    <li class="contacts-footer">
-                        <a target="_blank"
-                            href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
-                                class="location" name="location-outline"></ion-icon>улица
-                            Кирова, 19</a>
-                    </li>
-                </ul>
-                <ul>
-                    <h5>Режим работы</h5>
-                    <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
-                                name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
-                    </li>
-                    <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
-                                name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
-                </ul>
-                <ul>
-                    <h5>Мы ВКонтакте</h5>
-                    <li class="Vk">
-                        <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="logo-vk"
-                                name="logo-vk"></ion-icon>VK</a>
-                    </li>
-                </ul>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-menu">
+                    <img class="logo-footer" src="images/logo.png" alt="">
+                    <ul>
+                        <h5>Контакты</h5>
+                        <li class="contacts-footer">
+                            <a href="tel:+78142633466"><ion-icon class="call-outline" name="call-outline"></ion-icon>+78142633466</a>
+                        </li>
+                        <li class="contacts-footer">
+                            <a href="tel:+79114003466"><ion-icon class="call-outline" name="call-outline"></ion-icon>+79114003466</a>
+                        </li>
+                        <li class="contacts-footer">
+                            <a target="_blank"
+                                href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
+                                    class="location" name="location-outline"></ion-icon>улица
+                                Кирова, 19</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h5>Режим работы</h5>
+                        <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
+                                    name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
+                        </li>
+                        <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
+                                    name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
+                    </ul>
+                    <ul>
+                        <h5>Мы ВКонтакте</h5>
+                        <li class="Vk">
+                            <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="logo-vk"
+                                    name="logo-vk"></ion-icon>VK</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </footer> -->
+        </footer>
+    </div>
     <!-- Scripts -->
     <!-- <button id="btn">Парикмахерские услуги</button>
     <div id="dv"> -->
