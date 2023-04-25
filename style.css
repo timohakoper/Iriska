@@ -3,9 +3,10 @@
     margin: 0;
 }
 
-*, body {
+body {
     font-family: 'Montserrat', sans-serif !important ;
-    background-color: #fff8dc;
+    background: linear-gradient(180deg, #ffc3c3 0%, #dccfcf 100%);
+
 }
 
 a {
@@ -28,28 +29,21 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Header-nav  */
 
-.container.navbar-container {
-    background-color: #fff8dc;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
 .logo-salon {
     max-width: 200px;
     vertical-align: middle;
     padding: 0 25px;
 }
-.collapsing {
-    transition: height .15s ease !important;
+
+.navbar {
+    background: #fff !important;
 }
+
 .nav-item {
     margin-right: 15px;
 }
-
 .nav-item:hover {
-    transition: .7s;
-    background-color: rgb(197, 84, 163);
+    opacity: .60;
 }
 
 .nav_link {
@@ -77,25 +71,26 @@ h1,h2,h3,h4,h5,h6 {
 
 .btn_border {
     display: inline-block;
-    background-color: #473f1c;
-    border-radius: 30px;
+    color: #fff !important;
+    border: 1px solid #EB8E84;
+    border-radius: 30px !important;
     padding: 10px 30px;
     margin-left: 10px;
     font-size: 16px;
-    color: #fff;
+    background-color: #EB8E84 !important;
 }
 
 .btn_border:hover {
     transition: .4s;
-    background-color: #dbc159;
+    background-color: #c25f5f !important;
 }
+
 
 /* Main (about) */
 
 .page {
     display: flex;
     flex-direction: column;
-    background-color: #fff8dc ;
 }
 section {
     padding-top: 100px;
@@ -119,9 +114,8 @@ h1 {
     font-size: 36px;
     font-weight: 700;
 }
-.about_img>img {
-    height: 500px;
-    width: 700px;
+h2 {
+    padding-bottom: 30px;
 }
 
 /* SERVICES */
@@ -153,10 +147,11 @@ h2 {
     width: 500px;
 }
 
+
 /* FOOTER  */
 
 .footer {
-    background-color: #d1d1d1 !important;
+    background: #fff;
 }
 .logo-footer {
     width: 120px;
