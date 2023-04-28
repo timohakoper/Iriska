@@ -148,7 +148,11 @@ h2 {
 
 /* GALLERY */
 
-
+.middle {
+    width: 100%;
+    padding: 1% 0 2%;
+    position: relative;
+  }
 
 
 /* FOOTER  */
