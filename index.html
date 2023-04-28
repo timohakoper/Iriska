@@ -19,9 +19,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- bootstrap css & js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- fotorama css & js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <style>
@@ -55,7 +57,7 @@
                     <a target="_blank"
                         href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"
                         class="nav_adress">
-                        <ion-icon class="location" name="location-outline"></ion-icon>
+                        <img src="images/geo.svg" alt="">
                         <p>Ул. Кирова, 19</p>
                     </a>
                     <div class="nav-btn" id="pc">
@@ -82,7 +84,7 @@
                         <p>Салон работает на профессиональной косметике марки «Estel» и «Kaaral»</p>
                     </div>
                     <div class="col-lg-6 about_img">
-
+                        <img src="images/XXXL.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -90,7 +92,7 @@
         <section id="services">
             <div class="container">
                 <h2>Наши услуги</h2>
-                <ul class="services-list">
+                <div class="services-list">
                     <button class="collapsible">Парикмахерские услуги</button>
                     <div class="content">
                         <p>Мужская стрижка - 600₽</p>
@@ -133,7 +135,7 @@
                         <p>Косметический массаж лица - 600₽ (курс 10-12 процедур) </p>
                         <p>Лимфодренажный массаж тела - 1200₽ (курс 7-12 процедур)</p>
                     </div>
-                </ul>
+                </div>
             </div>
         </section>
         <section class="fraza">
@@ -145,9 +147,9 @@
             <h2>Галерея наших работ</h2>
             <div class="container">
                 <div class="middle">
-                    <div class="fotorama" data-nav="thumbs" data-arrows="true" data-click="true" data-swipe="true"
-                        data-width="100%" data-ratio="800/600" data-maxwidth="889" data-maxheight="604"
-                        data-loop="true">
+                    <div class="fotorama" data-autoplay="true" data-nav="thumbs" data-arrows="true" data-click="true"
+                        data-swipe="true" data-width="100%" data-ratio="800/600" data-maxwidth="889"
+                        data-maxheight="604" data-loop="true">
                         <img src="images/sl2.jpg" alt="">
                         <img src="images/sl3.jpg" alt="">
                         <img src="images/sl4.jpg">
@@ -158,6 +160,7 @@
                         <img src="images/sl9.jpg">
                     </div>
                 </div>
+            </div>
         </section>
         <section id="contacts">
             <div class="container">
@@ -168,42 +171,47 @@
         </section>
         <footer id="footer">
             <div class="container">
-                <img class="logo-footer" src="images/logo.png" alt="">
+                
                 <div class="footer-menu">
                     <ul>
+                        <div class="col-lg-3 foot-logo">
+                            <img class="logo-footer" src="images/logo.png" alt="">
+                        </div>
+                    </ul>
+                    <ul>
                         <h5>Контакты</h5>
-                        <div class="col-lg-4 contacts">
+                        <div class="col-lg-3 contacts">
                             <li class="contacts-footer">
-                                <a href="tel:+78142633466"><ion-icon class="call-outline"
+                                <a href="tel:+78142633466"><ion-icon class="foot_icon"
                                         name="call-outline"></ion-icon>+78142633466</a>
                             </li>
                             <li class="contacts-footer">
-                                <a href="tel:+79114003466"><ion-icon class="call-outline"
+                                <a href="tel:+79114003466"><ion-icon class="foot_icon"
                                         name="call-outline"></ion-icon>+79114003466</a>
                             </li>
                             <li class="contacts-footer">
                                 <a target="_blank"
                                     href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
-                                        class="location" name="location-outline"></ion-icon>улица
+                                        class="foot_icon" name="location-outline"></ion-icon>улица
                                     Кирова, 19</a>
                             </li>
                         </div>
                     </ul>
                     <ul>
                         <h5>Режим работы</h5>
-                        <div class="col-lg-4 time-outline">
-                            <li class="rezimraboti"><a href="#footer"><ion-icon class="time-outline"
+                        <div class="col-lg-3 time-outline">
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="foot_icon"
                                         name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
                             </li>
-                            <li class="rezimraboti"><a href="#footer"><ion-icon class="time-outline"
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="foot_icon"
                                         name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
                         </div>
                     </ul>
                     <ul>
                         <h5>Мы ВКонтакте</h5>
-                        <div class="col-lg-4 social">
+                        <div class="col-lg-3 social">
                             <li class="Vk">
-                                <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="logo-vk"
+                                <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="foot_icon"
                                         name="logo-vk"></ion-icon>VK</a>
                             </li>
                         </div>
