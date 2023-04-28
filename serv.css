@@ -15,16 +15,23 @@
     background-color: #b86c64;
 }
 
+#collapsible2 {
+    background-color: #f8b3b0;
+}
+#collapsible2:hover {
+    background-color: #b86c64;
+}
+
 .content {
     max-height: 0;
     overflow: hidden;
     transition: max-Height 0.1s ease-in-out;
     background-color: #f3e8e8;
 }
-
-#collapsible2 {
-    background-color: #f8b3b0;
+.content li {
+    padding-bottom: 20px;
 }
-#collapsible2:hover {
-    background-color: #b86c64;
+
+.services-list p {
+    padding-left: 20px;
 }
