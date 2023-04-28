@@ -9,6 +9,7 @@
     <title>Салон красоты - "IRISKA"</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="serv.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,6 +24,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <style>
+    </style>
 </head>
 
 <body>
@@ -41,7 +44,7 @@
                     <div class="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav_link" href="#about">О салоне</a></li>
-                            <li class="nav-item"><a class="nav_link" href="#services">Услуги</a></li>
+                            <li class="nav-item"><a target="_blank" class="nav_link" href="index1.html">Услуги</a></li>
                             <li class="nav-item"><a class="nav_link" href="#gallery">Галерея</a></li>
                             <li class="nav-item"><a class="nav_link" href="#otz">Отзывы</a></li>
                             <li class="nav-item"><a class="nav_link" href="#contacts">Контакты</a></li>
@@ -84,94 +87,48 @@
             <div class="container">
                 <h2>Наши услуги</h2>
                 <ul class="services-list">
-                    <li>
-                        <ol>Парикмахерские услуги</ol>
-                        <ul>
-                            <li>Мужская стрижка -
-                                <p>400-500₽</p>
-                            </li>
-                            <li>Женская стрижка -
-                                <p>400-700₽</p>
-                            </li>
-                            <li>Детская стрижка -
-                                <p>400₽</p>
-                            </li>
-                            <li>Подравнивание -
-                                <p>300₽</p>
-                            </li>
-                            <li>Однотонное окрашивание -
-                                <p>1500₽</p>
-                            </li>
-                            <li>Окрашивание корней -
-                                <p>1000₽ </p>
-                            </li>
-                            <li>Мелирование -
-                                <p>от 2000₽</p>
-                            </li>
-                            <li>Сложные техники ( Лир, шатуш, балаяж ) -
-                                <p>от 3000₽</p>
-                            </li>
-                            <li>Укладка волос (Локоны) -
-                                <p>от 500₽</p>
-                            </li>
-                            <li>Спа-уход -
-                                <p>от 300₽</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span>Косметология</span>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span>Визаж</span>
-                        <ul>
-                            <li>Перманентный макияж
-                                <ol>Брови
-                                    <p>3500₽</p>
-                                </ol>
-                                <ol>Губы
-                                    <p>4500₽</p>
-                                </ol>
-                                <ol>Межресничка
-                                    <p>3000₽</p>
-                                </ol>
-                            </li>
-                            <li>Макияж
-                                <ol>Дневной
-                                    <p>1000₽</p>
-                                </ol>
-                                <ol>Вечерний
-                                    <p>1000₽</p>
-                                </ol>
-                                <ol>Лифтинг макияж
-                                    <p>1000₽</p>
-                                </ol>
-                                <ol>Макияж на фотосессию
-                                    <p>1000₽</p>
-                                </ol>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <span>Массаж</span>
-                        <ul>
-                            <li>Скульптурный массаж лица -
-                                <p>700₽ (курс 10-12 процедур)</p>
-                            </li>
-                            <li>Косметический массаж лица -
-                                <p>600₽ (курс 10-12 процедур) </p>
-                            </li>
-                            <li>Лимфодренажный массаж тела -
-                                <p>1200₽ (курс 7-12 процедур)</p>
-                            </li>
-                        </ul>
-                    </li>
+                    <button class="collapsible">Парикмахерские услуги</button>
+                    <div class="content">
+                        <p>Мужская стрижка - 600₽</p>
+                        <p>Женская стрижка - 800₽</p>
+                        <p>Детская стрижка - 400₽</p>
+                        <p>Подравнивание - 300₽</p>
+                        <p>Однотонное окрашивание от 1500₽</p>
+                        <p>Окрашивание корней от 1000₽</p>
+                        <p>Мелирование от 2000₽</p>
+                        <p>Сложные техники ( Лир, шатуш, балаяж ) от 3000₽</p>
+                        <p>Укладка волос (Локоны) от 500₽</p>
+                        <p>Спа-уход от 300₽</p>
+                    </div>
+                    <button class="collapsible">Косметология</button>
+                    <div class="content">
+                        <p>Velvet ресниц 1500₽</p>
+                        <p>Velvet ресниц + Botox 3d 1700₽</p>
+                        <p>Пусто</p>
+                        <p>Пусто</p>
+                    </div>
+                    <button class="collapsible">Визаж</button>
+                    <div class="content">
+                        <button class="collapsible" id="collapsible2">Перманентный макияж</button>
+                        <div class="content">
+                            <p>Брови - 3500₽</p>
+                            <p>Губы - 4500₽</p>
+                            <p>Межресничка - 3000₽</p>
+                        </div>
+                        <button class="collapsible" id="collapsible2">Макияж</button>
+                        <div class="content">
+                            <p>Дневной - 1000₽</p>
+                            <p>Вечерний - 1000₽</p>
+                            <p>Лифтинг макияж - 1000₽</p>
+                            <p>Макияж на фотосессию - 1000₽</p>
+                        </div>
+                    </div>
+                    <button class="collapsible">Массаж </button>
+                    <div class="content">
+                        <p>Скульптурный массаж лица - 700₽ (курс 10-12 процедур)</p>
+                        <p>Косметический массаж лица - 600₽ (курс 10-12 процедур) </p>
+                        <p>Лимфодренажный массаж тела - 1200₽ (курс 7-12 процедур)</p>
+                    </div>
                 </ul>
             </div>
         </section>
@@ -186,26 +143,26 @@
                 <div class="row">
                     <div class="col-lg-3 fotorama1">
                         <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl1.jpg">
-                            <img src="images/sl2.jpg">
-                        </div>                      
+                            <img src="images/sl6.jpg">
+                            <img src="images/sl6.jpg">
+                        </div>
                     </div>
                     <div class="col-lg-3 fotorama2">
                         <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl4.jpg">
-                            <img src="images/sl5.jpg">
+                            <img src="images/sl6.jpg">
+                            <img src="images/sl6.jpg">
                         </div>
                     </div>
                     <div class="col-lg-3 fotorama3">
                         <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl.jpg">
-                            <img src="images/sl7.jpg">
+                            <img src="images/sl6.jpg">
+                            <img src="images/sl6.jpg">
                         </div>
                     </div>
                     <div class="col-lg-3 fotorama4">
                         <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl8.jpg">
-                            <img src="images/sl.jpg">
+                            <img src="images/sl6.jpg">
+                            <img src="images/sl6.jpg">
                         </div>
                     </div>
                 </div>
@@ -255,13 +212,10 @@
             </div>
         </footer>
     </div>
-    <!-- Scripts -->
-    <!-- <button id="btn">Парикмахерские услуги</button>
-    <div id="dv"> -->
+    <script src="service.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
