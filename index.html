@@ -44,9 +44,9 @@
                     <div class="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav_link" href="index.html">О салоне</a></li>
-                            <li class="nav-item"><a class="nav_link" href="services.html">Услуги</a></li>
-                            <li class="nav-item"><a class="nav_link" href="gallery.html">Галерея</a></li>
-                            <li class="nav-item"><a class="nav_link" href="#otz">Отзывы</a></li>
+                            <li class="nav-item"><a class="nav_link" href="#services">Услуги</a></li>
+                            <li class="nav-item"><a class="nav_link" href="#gallery">Галерея</a></li>
+                            <li class="nav-item"><a target="_blank" class="nav_link" href="https://www.meme-arsenal.com/memes/056d34adaeef34b48a615b4ace0a2d62.jpg">Отзывы</a></li>
                             <li class="nav-item"><a class="nav_link" href="#contacts">Контакты</a></li>
                         </ul>
                     </div>
@@ -58,7 +58,9 @@
                     </a>
                     <div class="nav-btn" id="pc">
                         <a href="tel:+78142633466" class="btn_border">Позвонить</a>
-                        <a href="#" class="btn_border">Записаться</a>
+                        <a target="_blank"
+                            href="https://www.meme-arsenal.com/memes/056d34adaeef34b48a615b4ace0a2d62.jpg"
+                            class="btn_border">Записаться</a>
                     </div>
                 </div>
             </nav>
@@ -169,44 +171,53 @@
             </div>
         </section>
         <section id="contacts">
-            <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2c84f9dd26b5c3863c0552b28ac1a0f185160edd2b6ff1fb155de6899ca39a3&amp;width=100%25&amp;height=582&amp;lang=ru_RU&amp;scroll=false"></script>
-        </section>
-        <footer class="footer">
             <div class="container">
+                <h2>Контакты</h2>
+                <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2c84f9dd26b5c3863c0552b28ac1a0f185160edd2b6ff1fb155de6899ca39a3&amp;width=100%25&amp;height=582&amp;lang=ru_RU&amp;scroll=false"></script>        
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <img class="logo-footer" src="images/logo.png" alt="">
                 <div class="footer-menu">
-                    <img class="logo-footer" src="images/logo.png" alt="">
                     <ul>
                         <h5>Контакты</h5>
-                        <li class="contacts-footer">
-                            <a href="tel:+78142633466"><ion-icon class="call-outline"
-                                    name="call-outline"></ion-icon>+78142633466</a>
-                        </li>
-                        <li class="contacts-footer">
-                            <a href="tel:+79114003466"><ion-icon class="call-outline"
-                                    name="call-outline"></ion-icon>+79114003466</a>
-                        </li>
-                        <li class="contacts-footer">
-                            <a target="_blank"
-                                href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
-                                    class="location" name="location-outline"></ion-icon>улица
-                                Кирова, 19</a>
-                        </li>
+                        <div class="col-lg-4 contacts">
+                            <li class="contacts-footer">
+                                <a href="tel:+78142633466"><ion-icon class="call-outline"
+                                        name="call-outline"></ion-icon>+78142633466</a>
+                            </li>
+                            <li class="contacts-footer">
+                                <a href="tel:+79114003466"><ion-icon class="call-outline"
+                                        name="call-outline"></ion-icon>+79114003466</a>
+                            </li>
+                            <li class="contacts-footer">
+                                <a target="_blank"
+                                    href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
+                                        class="location" name="location-outline"></ion-icon>улица
+                                    Кирова, 19</a>
+                            </li>
+                        </div>
                     </ul>
                     <ul>
                         <h5>Режим работы</h5>
-                        <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
-                                    name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
-                        </li>
-                        <li class="rezimraboti"><a href="#"><ion-icon class="time-outline"
-                                    name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
+                        <div class="col-lg-4 time-outline">
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="time-outline"
+                                        name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
+                            </li>
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="time-outline"
+                                        name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
+                        </div>
                     </ul>
                     <ul>
                         <h5>Мы ВКонтакте</h5>
-                        <li class="Vk">
-                            <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="logo-vk"
-                                    name="logo-vk"></ion-icon>VK</a>
-                        </li>
+                        <div class="col-lg-4 social">
+                            <li class="Vk">
+                                <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="logo-vk"
+                                        name="logo-vk"></ion-icon>VK</a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </div>
