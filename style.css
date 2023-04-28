@@ -37,6 +37,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar {
     background: #fff !important;
+    text-align: right;
 }
 
 .nav-item {
@@ -136,17 +137,21 @@ h2 {
 
 
 
+
 /* FRAZA  */
 
 h2 {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    width: 500px;
 }
 
+
+/* GALLERY */
+
+#galery h2 {
+    word-wrap: break-word;
+}
 
 /* FOOTER  */
 
