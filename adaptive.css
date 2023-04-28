@@ -14,13 +14,26 @@
         max-width: 1420px;
     } 
 }
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
 .nav_adress {
     display: none;
 }
 }
+@media (max-width: 1320px) {
+    .btn_border {
+        padding: 9px 23px;
+    }
+}
 @media (max-width: 991px) {
 #pc {
     display: none;
+}
+.navbar {
+    text-align: right;
+}
+}
+@media (max-width: 1400px) {
+    .logo-salon {
+        max-width: 160px;
 }
 }
