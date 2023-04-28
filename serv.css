@@ -1,5 +1,5 @@
 .collapsible {
-    background-color: #EB8E84;
+    background-color: #fda49f;
     padding: 18px;
     color: white;
     cursor: pointer;
@@ -19,11 +19,11 @@
     max-height: 0;
     overflow: hidden;
     transition: max-Height 0.1s ease-in-out;
-    background-color: #d3b0b0;
+    background-color: #f3e8e8;
 }
 
 #collapsible2 {
-    background-color: #e7a29a;
+    background-color: #f8b3b0;
 }
 #collapsible2:hover {
     background-color: #b86c64;
