@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="images/лого бежевое.png">
     <title>Салон красоты - "IRISKA"</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="serv.css">
@@ -21,13 +22,8 @@
         rel="stylesheet">
     <!-- bootstrap css & js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
-    <!-- fotorama css & js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-    <style>
-    </style>
+    <!-- nivo css & js -->
+
 </head>
 
 <body>
@@ -144,43 +140,52 @@
             </div>
         </section>
         <section id="gallery">
-            <h2>Галерея наших работ</h2>
             <div class="container">
-                <div class="middle">
-                    <div class="fotorama" data-autoplay="true" data-nav="thumbs" data-arrows="true" data-click="true"
-                        data-swipe="true" data-width="100%" data-ratio="800/600" data-maxwidth="889"
-                        data-maxheight="604" data-loop="true">
-                        <img src="images/sl2.jpg" alt="">
-                        <img src="images/sl3.jpg" alt="">
-                        <img src="images/sl4.jpg">
-                        <img src="images/sl5.jpg">
-                        <img src="images/sl6.jpg">
-                        <img src="images/sl7.jpg">
-                        <img src="images/sl8.jpg">
-                        <img src="images/sl9.jpg">
+                <h2>Галерея наших работ</h2>
+                <div class="gallery-list">
+                    <div class="gallery-image">
+                        <a data-fslightbox="gallery1"
+                            href="https://sun9-27.userapi.com/impg/eZs-95D0Xr4_Hn7Q7hKM7sPmjA_XFy1sEWnkpQ/_N5FJOR4M2I.jpg?size=810x1080&quality=96&sign=9fd386b6628197063d4bacdc775edbda&type=album">
+                            <img src="https://sun9-27.userapi.com/impg/eZs-95D0Xr4_Hn7Q7hKM7sPmjA_XFy1sEWnkpQ/_N5FJOR4M2I.jpg?size=810x1080&quality=96&sign=9fd386b6628197063d4bacdc775edbda&type=album"
+                                alt="image">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a data-fslightbox="gallery1"
+                            href="https://sun9-51.userapi.com/impg/lAc_6TXJ8OjbvzUTKqKJxLzvY1nPKz0Xo_RSXA/YgDZwTveRs0.jpg?size=816x1080&quality=96&sign=81e6cab49d88cc7d9b98eba1fe1fb2f5&type=album">
+                            <img src="https://sun9-51.userapi.com/impg/lAc_6TXJ8OjbvzUTKqKJxLzvY1nPKz0Xo_RSXA/YgDZwTveRs0.jpg?size=816x1080&quality=96&sign=81e6cab49d88cc7d9b98eba1fe1fb2f5&type=album"
+                                alt="image">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a data-fslightbox="gallery1"
+                            href="https://sun9-50.userapi.com/impg/8YnxOZ9c6y9_jBSA3kHEtWnJdTo6fWWS77mdoA/IQsPaXwhSvc.jpg?size=810x1080&quality=96&sign=f65ff717e73870dd586029783e889949&type=album">
+                            <img src="https://sun9-50.userapi.com/impg/8YnxOZ9c6y9_jBSA3kHEtWnJdTo6fWWS77mdoA/IQsPaXwhSvc.jpg?size=810x1080&quality=96&sign=f65ff717e73870dd586029783e889949&type=album"
+                                alt="image">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a data-fslightbox="gallery1"
+                            href="https://sun9-67.userapi.com/impg/adoNT8HJgbMXLCh0fkCzRaOMIMXZnFKw4AW6Dg/8lJMIEE4rj4.jpg?size=635x1080&quality=96&sign=bfd183d4456c98792bc6193117322ebc&type=album">
+                            <img src="https://sun9-67.userapi.com/impg/adoNT8HJgbMXLCh0fkCzRaOMIMXZnFKw4AW6Dg/8lJMIEE4rj4.jpg?size=635x1080&quality=96&sign=bfd183d4456c98792bc6193117322ebc&type=album"
+                                alt="image">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="contacts">
-            <div class="container">
                 <h2>Контакты</h2>
                 <script type="text/javascript" charset="utf-8" async
                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad2c84f9dd26b5c3863c0552b28ac1a0f185160edd2b6ff1fb155de6899ca39a3&amp;width=100%25&amp;height=582&amp;lang=ru_RU&amp;scroll=false"></script>
-            </div>
         </section>
         <footer id="footer">
             <div class="container">
-                
+                <img class="logo-footer" src="images/logo.png" alt="">
                 <div class="footer-menu">
                     <ul>
-                        <div class="col-lg-3 foot-logo">
-                            <img class="logo-footer" src="images/logo.png" alt="">
-                        </div>
-                    </ul>
-                    <ul>
                         <h5>Контакты</h5>
-                        <div class="col-lg-3 contacts">
+                        <div class="contacts">
                             <li class="contacts-footer">
                                 <a href="tel:+78142633466"><ion-icon class="foot_icon"
                                         name="call-outline"></ion-icon>+78142633466</a>
@@ -199,7 +204,7 @@
                     </ul>
                     <ul>
                         <h5>Режим работы</h5>
-                        <div class="col-lg-3 time-outline">
+                        <div class="time-outline">
                             <li class="rezimraboti"><a href="#footer"><ion-icon class="foot_icon"
                                         name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
                             </li>
@@ -209,7 +214,7 @@
                     </ul>
                     <ul>
                         <h5>Мы ВКонтакте</h5>
-                        <div class="col-lg-3 social">
+                        <div class="social">
                             <li class="Vk">
                                 <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="foot_icon"
                                         name="logo-vk"></ion-icon>VK</a>
@@ -220,6 +225,7 @@
             </div>
         </footer>
     </div>
+    <script src="fslightbox.js"></script>
     <script src="service.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
