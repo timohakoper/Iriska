@@ -37,3 +37,9 @@
         max-width: 160px;
 }
 }
+@media (max-width: 768px) {
+    .logo-footer {
+        margin: 10px auto 15px;
+        display: block;
+    }
+}
