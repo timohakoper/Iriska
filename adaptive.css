@@ -25,8 +25,9 @@
     }
 }
 @media (max-width: 991px) {
-#pc {
-    display: none;
+    .navbar-nav li {
+        padding: 5px 0;
+
 }
 .navbar {
     text-align: right;
