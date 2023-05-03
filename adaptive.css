@@ -1,46 +1,62 @@
 @media (min-width: 992px) {
-    .container,.nav-container {
+
+    .container,
+    .nav-container {
         max-width: 960px;
     }
 }
 
 @media (min-width: 1200px) {
-    .container,.nav-container {
+
+    .container,
+    .nav-container {
         max-width: 1140px;
     }
 }
+
 @media (min-width: 1320px) {
-    .container,.nav-container {
+
+    .container,
+    .nav-container {
         max-width: 1420px;
-    } 
+    }
 }
+
 @media (max-width: 1240px) {
-.nav_adress {
-    display: none;
+    .nav_adress {
+        display: none;
+    }
 }
-}
+
 @media (max-width: 1320px) {
     .btn_border {
         padding: 9px 23px;
     }
 }
+
 @media (max-width: 991px) {
     .navbar-nav li {
         padding: 5px 0;
+    }
+    .navbar {
+        text-align: right;
+    }
 
 }
-.navbar {
-    text-align: right;
-}
-}
+
 @media (max-width: 1400px) {
     .logo-salon {
         max-width: 160px;
+    }
 }
-}
+
 @media (max-width: 768px) {
     .logo-footer {
         margin: 10px auto 15px;
         display: block;
+    }
+    .reviews-menu {
+        width: auto !important;
+        height: 620px !important;
     }
 }
