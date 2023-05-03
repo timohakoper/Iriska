@@ -54,9 +54,7 @@ h1,h2,h3,h4,h5,h6 {
     white-space: nowrap;
     text-decoration: none;
 }
-.nav_item:hover {
-    transform: scale(1.2);
-}
+
 
 .nav_adress {
     display: flex;
@@ -90,7 +88,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn_border:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .4s;
     background-color: #b86c64 !important;
 }
@@ -170,4 +168,6 @@ h2 {
 .foot_icon:hover {
     transform: scale(1.2);
 }
-
+#document>.badge {
+    max-width: 500px;
+}
