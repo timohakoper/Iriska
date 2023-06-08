@@ -101,20 +101,15 @@ h1,h2,h3,h4,h5,h6 {
     flex-direction: column;
 }
 section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .row_aic {
     display: flex;    
     justify-content: space-between;
     align-items: center;
 }
-.about_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
+
 .about_text>p {
-    margin-top: 20px;
     font-weight: 500;
     font-size: 20px;
 }
@@ -127,7 +122,7 @@ h1 {
     font-weight: 700;
 }
 h2 {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
