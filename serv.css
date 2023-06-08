@@ -34,3 +34,9 @@
 .services-list p {
     padding-left: 20px;
 }
+#services {
+    padding-bottom: 60px
+}
+.services-list {
+    padding-bottom: 30px;
+}
