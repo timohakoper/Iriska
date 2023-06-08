@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="serv.css">
+    <link rel="stylesheet" href="lightbox.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-    <div class="page">
+    <d6v class="page">
         <!-- Header -->
         <header class="header">
             <nav class="navbar navbar-expand-lg fixed-top">
@@ -45,57 +46,120 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav_link" href="index.html">О салоне</a></li>
                             <li class="nav-item"><a class="nav_link" href="services.html">Услуги</a></li>
-                            <li class="nav-item"><a class="nav_link" href="#gallery">Галерея</a></li>
-                            <li class="nav-item"><a class="nav_link" href="#otz">Отзывы</a></li>
+                            <li class="nav-item"><a class="nav_link" href="gallery.html">Галерея</a></li>
+                            <li class="nav-item"><a class="nav_link" href="#reviews">Отзывы</a></li>
                             <li class="nav-item"><a class="nav_link" href="#contacts">Контакты</a></li>
                         </ul>
-                    </div>
-                    <a target="_blank"
-                        href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"
-                        class="nav_adress">
-                        <ion-icon class="location" name="location-outline"></ion-icon>
-                        <p>Ул. Кирова, 19</p>
-                    </a>
-                    <div class="nav-btn" id="pc">
-                        <a href="tel:+78142633466" class="btn_border">Позвонить</a>
-                        <a href="#" class="btn_border">Записаться</a>
+                        <a target="_blank"
+                            href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"
+                            class="nav_adress">
+                            <img src="images/geo.svg" alt="">
+                            <p>Ул. Кирова, 19</p>
+                        </a>
+                        <div class="nav-btn" id="pc">
+                            <a href="tel:+78142633466" class="btn_border">Позвонить</a>
+                            <a target="_blank" href="https://dikidi.net/1096072" class="btn_border">Записаться</a>
+                        </div>
                     </div>
                 </div>
-            </nav>
+            </nav>   
         </header>
-        <!-- Main page -->
-        <section id="gallery">
-            <h2>Галерея наших работ</h2>
+        <section class="gallery">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 fotorama1">
-                        <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl6.jpg">
-                            <img src="images/sl6.jpg">
+                <h2>Галерея наших работ.</h2>
+                <div class="gallery-list">
+                    <div class="gallery1">
+                        <div class="ramka">
+                            <a href="images/sl2.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl2.jpg" alt="описание изображения 1">
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-3 fotorama2">
-                        <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl6.jpg">
-                            <img src="images/sl6.jpg">
+                        <div class="ramka">
+                            <a href="images/sl4.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl4.jpg" alt="описание изображения 2">
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-3 fotorama3">
-                        <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl6.jpg">
-                            <img src="images/sl6.jpg">
+                        <div class="ramka">
+                            <a href="images/sl5.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl5.jpg" alt="описание изображения 3">
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-lg-3 fotorama4">
-                        <div class="fotorama" data-autoplay="true" data-width="600" data-height="400">
-                            <img src="images/sl6.jpg">
-                            <img src="images/sl6.jpg">
+                        <div class="ramka">
+                            <a href="images/sl6.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl6.jpg" alt="описание изображения 3">
+                            </a>
+                        </div>
+                        <div class="ramka">
+                            <a href="images/sl7.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl7.jpg" alt="описание изображения 3">
+                            </a>
+                        </div>
+                        <div class="ramka">
+                            <a href="images/sl8.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl8.jpg" alt="описание изображения 3">
+                            </a>
+                        </div>
+                        <div class="ramka">
+                            <a href="images/sl9.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl9.jpg" alt="описание изображения 3">
+                            </a>
+                        </div>
+                        <div class="ramka">
+                            <a href="images/sl10.jpg" data-lightbox="my-gallery">
+                                <img src="images/sl10.jpg" alt="описание изображения 3">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <footer id="footer">
+            <div class="container">
+                <img class="logo-footer" src="images/logo.png" alt="">
+                <div class="footer-menu">
+                    <ul>
+                        <h5>Контакты</h5>
+                        <div class="contacts">
+                            <li class="contacts-footer">
+                                <a href="tel:+78142633466"><ion-icon class="foot_icon"
+                                        name="call-outline"></ion-icon>+78142633466</a>
+                            </li>
+                            <li class="contacts-footer">
+                                <a href="tel:+79114003466"><ion-icon class="foot_icon"
+                                        name="call-outline"></ion-icon>+79114003466</a>
+                            </li>
+                            <li class="contacts-footer">
+                                <a target="_blank"
+                                    href="https://yandex.ru/maps/org/iriska/221411675208/?ll=34.368263%2C61.792689&z=19.71"><ion-icon
+                                        class="foot_icon" name="location-outline"></ion-icon>улица
+                                    Кирова, 19</a>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul>
+                        <h5>Режим работы</h5>
+                        <div class="time-outline">
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="foot_icon"
+                                        name="time-outline"></ion-icon>Пн-пт - 10:00 до 19:00</a>
+                            </li>
+                            <li class="rezimraboti"><a href="#footer"><ion-icon class="foot_icon"
+                                        name="time-outline"></ion-icon>Сб-вс - выходные </a></li>
+                        </div>
+                    </ul>
+                    <ul>
+                        <h5>Мы ВКонтакте</h5>
+                        <div class="social">
+                            <li class="Vk">
+                                <a target="_blank" href="https://vk.com/iriskaptz"><ion-icon class="foot_icon"
+                                        name="logo-vk"></ion-icon>VK</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
+    <script src="lightbox.min.js"></script>
     <script src="service.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
