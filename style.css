@@ -83,12 +83,11 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 30px !important;
     padding: 10px 30px;
     margin-left: 10px;
-    font-size: 16px;
     background-color: #fda49f !important;
 }
 
 .btn_border:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: .4s;
     background-color: #b86c64 !important;
 }
@@ -130,6 +129,21 @@ h1 {
 h2 {
     padding-bottom: 30px;
     text-align: center;
+}
+
+.btn_fraza {
+    display: flex;
+    justify-content: center;
+    color: #fff !important;
+    border-radius: 30px !important;
+    padding: 20px;
+    background-color: #fda49f !important;
+}
+
+.btn_fraza:hover {
+    transform: scale(1.05);
+    transition: .4s;
+    background-color: #b86c64 !important;
 }
 
 
