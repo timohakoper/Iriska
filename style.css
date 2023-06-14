@@ -6,44 +6,44 @@
 body {
     position: relative;
     font-family: 'Montserrat', sans-serif !important ;
-    background: linear-gradient(180deg, #ffcbcd 0%, #f8dcdf 100%);
+    background: linear-gradient(77deg, #ffcbcd 0%, #f8dcdf 100%);
 }
-
 a {
     text-decoration : none !important;
 }
-
+html,
+body {
+    height: 100%;
+}
 h1,h2,h3,h4,h5,h6 {
     padding: 0;
     margin: 0;
     font-family: 'Roboto Slab', serif;
     color: #000;
-    
-}
-.nav-link,.btn,.nav_adress {
-    color: #000;
 }
 
 
-/* Header-nav  */
+/* Header  */
 
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 .logo-salon {
     max-width: 200px;
     vertical-align: middle;
     padding: 0 25px;
 }
-
 .navbar {
     background: #fff !important;
 }
-
 .nav-item {
     margin-right: 15px;
 }
 .nav-item:hover {
     opacity: .60;
 }
-
 .nav_link {
     text-align: center;
     text-transform: uppercase;
@@ -54,8 +54,6 @@ h1,h2,h3,h4,h5,h6 {
     white-space: nowrap;
     text-decoration: none;
 }
-
-
 .nav_adress {
     display: flex;
     justify-content: center;
@@ -70,9 +68,9 @@ h1,h2,h3,h4,h5,h6 {
 .nav_adress img {
     margin-right: 15px;
 }
-
-/* Nav-btn */
-
+.nav-link,.btn,.nav_adress {
+    color: #000;
+}
 #pc {
     white-space: nowrap;
 }
@@ -92,28 +90,21 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #b86c64 !important;
 }
 
+/* Main */
 
-/* Main (about) */
 
-.page {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
 section {
     padding-top: 80px;
 }
 .row_aic {
     display: flex;    
-    justify-content: space-between;
     align-items: center;
 }
-
-.about_text>p {
+.main_text {
     font-weight: 500;
     font-size: 20px;
 }
-.about_img img {
+.main_img img {
     max-width: 600px;
     height: 420px;
 }
@@ -140,6 +131,10 @@ h2 {
     transition: .4s;
     background-color: #b86c64 !important;
 }
+.cont-rev {
+    font-weight: 500;
+    font-size: 20px;
+}
 
 
 /* GALLERY */
@@ -155,6 +150,10 @@ h2 {
 
 /* FOOTER  */
 
+footer {
+    background-color: #fff;
+    margin-top: 45px;
+}
 .logo-footer {
     max-width: 150px;
 }
